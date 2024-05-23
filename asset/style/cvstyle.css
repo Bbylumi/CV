@@ -1,0 +1,137 @@
+*{
+    font-family: "Readex Pro";
+    line-height: 1.5rem;
+    color: #fff;
+    background-color: #131415;
+    box-sizing: border-box;
+}
+
+#container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-top: 50px;
+
+}
+.section-page{
+    padding: 45px 0 16px;
+}
+.display-pic{
+    width: 267px;
+    height: 241px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bio{
+    font-weight: 300;
+    color: #adb0b1;
+    margin-top: 35px;
+}
+.header{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.social-media-page{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.link{
+    font-weight: 300;
+    color: #adb0b1;
+    font-size: 0.9em;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.qualifications-list{
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+}
+.Skills{
+    display: block;
+    font-family: "Readex Pro";
+    line-height: 1.5rem;
+    color: #fff;
+    font-size: 1.5em;
+    margin-block-end: 0.83em;
+    font-weight: 600;
+}
+
+.list{
+    line-height: 1.5rem;
+    color: #adb0b1;
+    margin-bottom: 8px;
+}
+
+.techstack-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+.card-techstack{
+    border: 1px solid #2b3031;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.divider-line{
+    background-color: #2b3031;
+    height: 1px;
+}
+
+
+.work-history{
+    border-left: 1px solid  #2b3031;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.work p, li{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    color: #adb0b1;
+}
+
+
+
+.Projects-card{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid  #2b3031;
+}
+
+
+
+.projects-link{
+    font-weight: 300;
+    color: #fff;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 639px;
+    }
+}
